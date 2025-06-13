@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet" href="task2.css">
+    
+</head>
+<body>
+    <div class="content">
+        <div class="contactForm" style="margin: 10px;"><h1>Contact Form</h1></div>
+            <form autocomplete="off" onsubmit="return validation()">
+                <div class="mainContent">
+                    <div class="inputbox">
+                        <span class="inputitem" style="margin: 2px;padding: 5px;">UserID :</span>
+                        <input type="text"  id="id" placeholder="enter userID"  style="margin: 2px;padding: 5px;"></input>
+                    </div>
+
+                    <div class="inputbox">
+                        <span class="inputitem" style="margin: 2px;padding: 5px;">Full Name  :</span>
+                        <input type="text" id="name" placeholder="enter your name"  style="margin: 2px;padding: 5px;""></input>
+                    </div>
+
+                    <div class="inputbox">
+                        <span class="inputitem" style="margin: 2px;padding: 5px;">Mobile No. :</span>
+                        <input type="number" id="mob"  placeholder="enter your contact no." style="margin: 2px;padding: 5px;"></input>
+                    </div>
+
+                    <div class="inputbox">
+                        <span class="inputitem"  style="margin: 2px;padding: 5px;">Email :</span>
+                        <input type="mail" id="mail"  placeholder="enter your email address" style="margin: 2px;padding: 5px;"></input>
+                    </div>
+
+                    <div class="inputbox">
+                        <span class="inputitem" style="margin: 2px;padding: 5px;">Password :</span>
+                        <input type="password" id="pass"  placeholder="enter password"  style="margin: 2px;padding: 5px;"></input>
+                    </div>
+
+                    <div class="inputbox" >
+                        <span class="inputitem"  style="margin: 2px;padding: 5px;">Confirm password :</span>
+                        <input type="password" id="cpass"  placeholder="confirm password" style="margin: 2px;padding: 5px;"></input>
+                    </div>
+                    <input class="finalSubmit" type="submit" value="Submit" style="margin: 5px;padding: 5px;">
+                    
+                </div>
+            </form>
+            
+            
+    </div>
+    <button  style="margin-left: 10px;font-weight: bold;"><a href="to-do.html" >Click for To-Do-List</a></button>
+    
+
+    <script src="task2.js"></script>
+</body>
+
+</html>
